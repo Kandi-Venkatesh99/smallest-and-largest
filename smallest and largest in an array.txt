@@ -1,0 +1,16 @@
+def find(a):
+    small=a[0]
+    big=a[0]
+    for i in range(1,len(a)):
+        if a[i]<small:
+            small=a[i]
+    print("small number is ", small)
+    for j in range(1,len(a)):
+        if a[i]>big:
+            big=a[i]
+            
+    print("big number is" , big)
+    
+    
+a=[12,56,89,6,3,25,55]
+find(a)
